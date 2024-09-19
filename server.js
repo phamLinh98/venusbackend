@@ -14,7 +14,7 @@ server.use(
 );
 server.use(router);
 server.listen(4000, () => {
-  console.log("DB run successfully");
+  console.log("Backend Node Sever Run Success");
 });
 
 // Export the Server API
