@@ -7,7 +7,7 @@ const cors = require("cors");
 
 // Restrict CORS to only allow requests from https://linhthusinh.vercel.app
 const corsOptions = {
-  origin: "https://linhthusinh.vercel.app",
+  origin: ["https://linhthusinh.vercel.app", "http://localhost:5173"],
   optionsSuccessStatus: 200, // Some legacy browsers choke on 204
 };
 
